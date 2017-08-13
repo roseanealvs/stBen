@@ -9,7 +9,7 @@ import com.mongodb.DBCollection;
 import com.mongodb.DBObject;
 import com.mongodb.util.JSON;
 
-public class MongoInsert {
+public class Crud {
 	
 	/**
 	  * Inserts a batch of 1 to 1000 documents
@@ -21,8 +21,17 @@ public class MongoInsert {
 		for ( Object jsonObj : records  ) {
 			dbObjects.add((DBObject) JSON.parse(jsonObj.toString()));
 		}
-//		collection.drop();
-		collection.insert(dbObjects);
-	}
 
+		collection.insert(dbObjects);
+		
+	}
+	
+	public void updateDocuments(DBCollection collection, JSONArray records) {
+		
+	}
+	
+	public void dropCollection(DBCollection collection) {
+		collection.drop();
+	}
+	
 }
