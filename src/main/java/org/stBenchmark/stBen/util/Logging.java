@@ -1,4 +1,4 @@
-package org.stBenchmark.stBen;
+package org.stBenchmark.stBen.util;
 
 import org.apache.log4j.Logger;
 

@@ -1,4 +1,4 @@
-package org.stBenchmark.stBen;
+package org.stBenchmark.stBen.util;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -15,6 +15,7 @@ import java.util.stream.Stream;
 import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+import org.stBenchmark.stBen.util.Logging;
 
 public class Reader {
 	private final static String DATA_DIRECTORY = "/Users/roseanealves/Rep/stBen/src/main/resources/data/";
@@ -28,13 +29,10 @@ public class Reader {
 			
 		} catch (FileNotFoundException e) {
 			Logging.getLogger(this.getClass()).info("Arquivo não encontrado!");
-			e.printStackTrace();
 		} catch (IOException e) {
 			Logging.getLogger(this.getClass()).info("Erro ao tentar ler o arquivo!");
-			e.printStackTrace();
 		} catch (ParseException e) {
 			Logging.getLogger(this.getClass()).info("Erro ao tentar converter o arquivo!");
-			e.printStackTrace();
 		}
 		return array;
 	}
@@ -56,7 +54,6 @@ public class Reader {
 	
 		} catch (IOException e) {
 			Logging.getLogger(this.getClass()).info("Erro ao tentar ler arquivos do diretório!");
-			e.printStackTrace();
 		} 
 		return fileNames;
 	}
