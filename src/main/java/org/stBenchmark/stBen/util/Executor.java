@@ -2,6 +2,7 @@ package org.stBenchmark.stBen.util;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.Date;
 import java.util.ListIterator;
 
 import org.bson.Document;
@@ -12,25 +13,41 @@ import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 
-@Component
+
 public class Executor<T> {
 	private ListIterator<JSONArray> files;
 	private MongoCollection<Document> collection;
+	private long start;
 	
 	public Executor() {
 		files = new Reader().readAllDataFromDirectory();
 		collection = getCollection();
 	}
-	@LogExecutionTime
+	
 	public void executeCrud(Class<T> classe) {
 		try {
+			logStart(classe);
+			
 			Method method = classe.getMethod("executeCommand", MongoCollection.class, ListIterator.class);
 			method.invoke(classe.newInstance(), collection, files);
 			
+			logEnd();
+           
 		} catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException | NoSuchMethodException
 				| SecurityException | InstantiationException e) {
 			Logging.getLogger(Executor.class).info("Erro ao ler o método requerido.");
 		}
+	}
+
+	private void logEnd() {
+		long end = System.currentTimeMillis();
+		long time = end - start;
+		Logging.getLogger(Executor.class).info("THREAD: "+Thread.currentThread().getName()+" - execução finalizada. Tempo total: "+time+" ms");
+	}
+
+	private void logStart(Class<T> classe) {
+		Logging.getLogger(Executor.class).info("THREAD: "+Thread.currentThread().getName() + " - execução iniciada");
+		start = System.currentTimeMillis();
 	}
 	
 	private MongoCollection<Document> getCollection() {

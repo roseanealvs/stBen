@@ -1,20 +1,30 @@
 package org.stBenchmark.stBen;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.stBenchmark.stBen.crud.Insert;
-import org.stBenchmark.stBen.util.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+import org.stBenchmark.stBen.util.RunnableThreadFactory;
 
 /**
  * @author Roseane Alves
  *
  */
-@SpringBootApplication
 public class App 
 {
+	
     public static void main( String[] args )
     {
-    	SpringApplication.run(App.class, args);
-		new Executor<Insert>().executeCrud(Insert.class);
+    	ExecutorService myExecutor = Executors.newFixedThreadPool(3);
+    	Runnable user1 = RunnableThreadFactory.getRunnableWriterUser();
+    	Runnable user2 = RunnableThreadFactory.getRunnableWriterUser();
+    	Runnable user3 = RunnableThreadFactory.getRunnableWriterUser();
+    	
+    	myExecutor.submit(user1);
+    	myExecutor.submit(user2);
+    	myExecutor.submit(user3);
+    	
+    	myExecutor.shutdown();
+    	
+
     }
 }
