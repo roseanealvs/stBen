@@ -6,15 +6,17 @@ import java.util.ListIterator;
 
 import org.bson.Document;
 import org.json.simple.JSONArray;
+import org.stBenchmark.stBen.util.Reader;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.util.JSON;
 
 public class Insert implements RequiredExecutor{
+	
 	@Override
-	public void executeCommand(MongoCollection<Document> collection, ListIterator<JSONArray> files) {
-
+	public void executeCommand(MongoCollection<Document> collection) {
+		ListIterator<JSONArray> files = new Reader().readAllDataFromDirectory();
 		while ( files.hasNext() ) {
 			insertDocuments(collection, files.next());
 		}

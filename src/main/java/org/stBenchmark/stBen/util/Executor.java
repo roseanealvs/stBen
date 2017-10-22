@@ -15,12 +15,10 @@ import com.mongodb.client.MongoDatabase;
 
 
 public class Executor<T> {
-	private ListIterator<JSONArray> files;
 	private MongoCollection<Document> collection;
 	private long start;
-	
+
 	public Executor() {
-		files = new Reader().readAllDataFromDirectory();
 		collection = getCollection();
 	}
 	
@@ -28,8 +26,8 @@ public class Executor<T> {
 		try {
 			logStart(classe);
 			
-			Method method = classe.getMethod("executeCommand", MongoCollection.class, ListIterator.class);
-			method.invoke(classe.newInstance(), collection, files);
+			Method method = classe.getMethod("executeCommand", MongoCollection.class);
+			method.invoke(classe.newInstance(), collection);
 			
 			logEnd();
            
@@ -38,7 +36,7 @@ public class Executor<T> {
 			Logging.getLogger(Executor.class).info("Erro ao ler o método requerido.");
 		}
 	}
-
+	
 	private void logEnd() {
 		long end = System.currentTimeMillis();
 		long time = end - start;

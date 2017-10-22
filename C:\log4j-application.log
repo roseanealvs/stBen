@@ -1289,3 +1289,192 @@
 17-09-2017 13:57:23 INFO  Executor: 45 - THREAD: pool-1-thread-2 - execução finalizada. Tempo total: 742 ms
 17-09-2017 13:57:23 INFO  Executor: 45 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 744 ms
 17-09-2017 13:57:24 INFO  Executor: 45 - THREAD: pool-1-thread-3 - execução finalizada. Tempo total: 851 ms
+17-09-2017 14:18:33 INFO  Connection: 14 - Connectado!
+17-09-2017 14:18:33 INFO  Connection: 14 - Connectado!
+17-09-2017 14:18:33 INFO  Connection: 14 - Connectado!
+17-09-2017 14:18:33 INFO  Connection: 14 - Connectado!
+17-09-2017 14:18:33 INFO  Executor: 49 - THREAD: pool-1-thread-3 - execução iniciada
+17-09-2017 14:18:33 INFO  Executor: 49 - THREAD: pool-1-thread-2 - execução iniciada
+17-09-2017 14:18:33 INFO  Executor: 49 - THREAD: pool-1-thread-1 - execução iniciada
+17-09-2017 14:18:33 INFO  Executor: 38 - Erro ao ler o método requerido.
+17-09-2017 14:18:33 INFO  Executor: 38 - Erro ao ler o método requerido.
+17-09-2017 14:18:33 INFO  Executor: 38 - Erro ao ler o método requerido.
+17-09-2017 14:19:18 INFO  Connection: 14 - Connectado!
+17-09-2017 14:19:18 INFO  Connection: 14 - Connectado!
+17-09-2017 14:19:18 INFO  Connection: 14 - Connectado!
+17-09-2017 14:19:18 INFO  Connection: 14 - Connectado!
+17-09-2017 14:19:18 INFO  Executor: 49 - THREAD: pool-1-thread-2 - execução iniciada
+17-09-2017 14:19:18 INFO  Executor: 49 - THREAD: pool-1-thread-3 - execução iniciada
+17-09-2017 14:19:18 INFO  Executor: 49 - THREAD: pool-1-thread-1 - execução iniciada
+17-09-2017 14:19:18 INFO  Executor: 38 - Erro ao ler o método requerido.
+17-09-2017 14:19:18 INFO  Executor: 38 - Erro ao ler o método requerido.
+17-09-2017 14:19:18 INFO  Executor: 38 - Erro ao ler o método requerido.
+17-09-2017 14:19:44 INFO  Connection: 14 - Connectado!
+17-09-2017 14:19:44 INFO  Connection: 14 - Connectado!
+17-09-2017 14:19:44 INFO  Connection: 14 - Connectado!
+17-09-2017 14:19:44 INFO  Executor: 49 - THREAD: pool-1-thread-3 - execução iniciada
+17-09-2017 14:19:44 INFO  Executor: 49 - THREAD: pool-1-thread-1 - execução iniciada
+17-09-2017 14:19:45 INFO  Executor: 49 - THREAD: pool-1-thread-2 - execução iniciada
+17-09-2017 14:19:45 INFO  Executor: 45 - THREAD: pool-1-thread-3 - execução finalizada. Tempo total: 817 ms
+17-09-2017 14:19:45 INFO  Executor: 45 - THREAD: pool-1-thread-2 - execução finalizada. Tempo total: 812 ms
+17-09-2017 14:19:45 INFO  Executor: 45 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 896 ms
+17-09-2017 21:47:38 INFO  Connection: 14 - Connectado!
+17-09-2017 21:47:38 INFO  Connection: 14 - Connectado!
+17-09-2017 21:47:38 INFO  Connection: 14 - Connectado!
+17-09-2017 21:47:38 INFO  Executor: 49 - THREAD: pool-1-thread-3 - execução iniciada
+17-09-2017 21:47:38 INFO  Executor: 49 - THREAD: pool-1-thread-1 - execução iniciada
+17-09-2017 21:47:38 INFO  Executor: 49 - THREAD: pool-1-thread-2 - execução iniciada
+17-09-2017 21:47:38 INFO  Executor: 45 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 834 ms
+17-09-2017 21:47:38 INFO  Executor: 45 - THREAD: pool-1-thread-3 - execução finalizada. Tempo total: 838 ms
+17-09-2017 21:47:38 INFO  Executor: 45 - THREAD: pool-1-thread-2 - execução finalizada. Tempo total: 855 ms
+17-09-2017 22:00:06 INFO  Connection: 14 - Connectado!
+17-09-2017 22:00:06 INFO  Connection: 14 - Connectado!
+17-09-2017 22:00:06 INFO  Connection: 14 - Connectado!
+17-09-2017 22:00:06 INFO  Executor: 49 - THREAD: pool-1-thread-3 - execução iniciada
+17-09-2017 22:00:06 INFO  Executor: 49 - THREAD: pool-1-thread-1 - execução iniciada
+17-09-2017 22:00:06 INFO  Executor: 49 - THREAD: pool-1-thread-2 - execução iniciada
+17-09-2017 22:00:07 INFO  Executor: 45 - THREAD: pool-1-thread-3 - execução finalizada. Tempo total: 596 ms
+17-09-2017 22:00:07 INFO  Executor: 45 - THREAD: pool-1-thread-2 - execução finalizada. Tempo total: 638 ms
+17-09-2017 22:00:07 INFO  Executor: 45 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 644 ms
+18-09-2017 00:00:41 INFO  Connection: 14 - Connectado!
+18-09-2017 00:00:41 INFO  Connection: 14 - Connectado!
+18-09-2017 00:00:41 INFO  Executor: 49 - THREAD: pool-1-thread-1 - execução iniciada
+18-09-2017 00:00:41 INFO  Executor: 49 - THREAD: pool-1-thread-2 - execução iniciada
+18-09-2017 00:00:41 INFO  Executor: 45 - THREAD: pool-1-thread-2 - execução finalizada. Tempo total: 56 ms
+18-09-2017 00:00:42 INFO  Executor: 45 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 440 ms
+18-09-2017 00:01:50 INFO  Connection: 14 - Connectado!
+18-09-2017 00:01:50 INFO  Connection: 14 - Connectado!
+18-09-2017 00:01:50 INFO  Executor: 49 - THREAD: main - execução iniciada
+18-09-2017 00:01:50 INFO  Executor: 49 - THREAD: pool-1-thread-1 - execução iniciada
+18-09-2017 00:01:51 INFO  Executor: 38 - Erro ao ler o método requerido.
+18-09-2017 00:01:51 INFO  Executor: 45 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 361 ms
+18-09-2017 00:03:25 INFO  Connection: 14 - Connectado!
+18-09-2017 00:03:25 INFO  Connection: 14 - Connectado!
+18-09-2017 00:03:25 INFO  Executor: 49 - THREAD: main - execução iniciada
+18-09-2017 00:03:25 INFO  Executor: 49 - THREAD: pool-1-thread-1 - execução iniciada
+18-09-2017 00:03:25 INFO  Executor: 45 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 555 ms
+18-09-2017 00:03:58 INFO  Executor: 38 - Erro ao ler o método requerido.
+19-09-2017 01:01:09 INFO  Connection: 14 - Connectado!
+19-09-2017 01:01:09 INFO  Connection: 14 - Connectado!
+19-09-2017 01:01:09 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+19-09-2017 01:01:09 INFO  Executor: 64 - THREAD: pool-1-thread-2 - execução iniciada
+19-09-2017 01:02:07 INFO  Connection: 14 - Connectado!
+19-09-2017 01:02:07 INFO  Connection: 14 - Connectado!
+19-09-2017 01:02:07 INFO  Executor: 64 - THREAD: pool-1-thread-2 - execução iniciada
+19-09-2017 01:02:07 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+19-09-2017 01:02:08 INFO  Executor: 60 - THREAD: pool-1-thread-2 - execução finalizada. Tempo total: 540 ms
+19-09-2017 01:02:08 INFO  Executor: 60 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 551 ms
+19-09-2017 01:02:08 INFO  Executor: 64 - THREAD: pool-1-thread-2 - execução iniciada
+19-09-2017 01:02:08 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+19-09-2017 01:02:08 INFO  Executor: 38 - Erro ao ler o método requerido.
+19-09-2017 01:02:08 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+19-09-2017 01:02:08 INFO  Executor: 38 - Erro ao ler o método requerido.
+19-09-2017 01:02:08 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+19-09-2017 01:02:08 INFO  Executor: 38 - Erro ao ler o método requerido.
+19-09-2017 01:02:08 INFO  Executor: 60 - THREAD: pool-1-thread-2 - execução finalizada. Tempo total: 204 ms
+19-09-2017 01:03:12 INFO  Connection: 14 - Connectado!
+19-09-2017 01:03:12 INFO  Connection: 14 - Connectado!
+19-09-2017 01:03:12 INFO  Executor: 64 - THREAD: pool-1-thread-2 - execução iniciada
+19-09-2017 01:03:12 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+19-09-2017 01:03:12 INFO  Executor: 60 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 414 ms
+19-09-2017 01:03:12 INFO  Executor: 60 - THREAD: pool-1-thread-2 - execução finalizada. Tempo total: 425 ms
+19-09-2017 01:03:12 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+19-09-2017 01:03:12 INFO  Executor: 64 - THREAD: pool-1-thread-2 - execução iniciada
+19-09-2017 01:03:12 INFO  Executor: 38 - Erro ao ler o método requerido.
+19-09-2017 01:03:12 INFO  Executor: 64 - THREAD: pool-1-thread-2 - execução iniciada
+19-09-2017 01:03:12 INFO  Executor: 38 - Erro ao ler o método requerido.
+19-09-2017 01:03:12 INFO  Executor: 64 - THREAD: pool-1-thread-2 - execução iniciada
+19-09-2017 01:03:12 INFO  Executor: 38 - Erro ao ler o método requerido.
+19-09-2017 01:03:12 INFO  Executor: 60 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 229 ms
+19-09-2017 01:04:24 INFO  Connection: 14 - Connectado!
+19-09-2017 01:04:24 INFO  Connection: 14 - Connectado!
+19-09-2017 01:04:24 INFO  Executor: 64 - THREAD: pool-1-thread-2 - execução iniciada
+19-09-2017 01:04:24 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+19-09-2017 01:04:25 INFO  Executor: 38 - Erro ao ler o método requerido.
+19-09-2017 01:04:25 INFO  Executor: 64 - THREAD: pool-1-thread-2 - execução iniciada
+19-09-2017 01:04:25 INFO  Executor: 60 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 399 ms
+19-09-2017 01:04:25 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+19-09-2017 01:04:25 INFO  Executor: 38 - Erro ao ler o método requerido.
+19-09-2017 01:04:25 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+19-09-2017 01:04:25 INFO  Executor: 60 - THREAD: pool-1-thread-2 - execução finalizada. Tempo total: 348 ms
+19-09-2017 01:04:25 INFO  Executor: 64 - THREAD: pool-1-thread-2 - execução iniciada
+19-09-2017 01:04:25 INFO  Executor: 38 - Erro ao ler o método requerido.
+19-09-2017 01:04:25 INFO  Executor: 60 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 190 ms
+22-10-2017 12:45:03 INFO  Connection: 14 - Connectado!
+22-10-2017 12:45:03 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 12:45:03 INFO  Executor: 60 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 565 ms
+22-10-2017 12:47:04 INFO  Connection: 14 - Connectado!
+22-10-2017 12:47:04 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 12:47:04 INFO  Executor: 38 - Erro ao ler o método requerido.
+22-10-2017 12:47:59 INFO  Connection: 14 - Connectado!
+22-10-2017 12:47:59 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 12:48:58 INFO  Executor: 38 - Erro ao ler o método requerido.
+22-10-2017 12:51:39 INFO  Connection: 14 - Connectado!
+22-10-2017 12:51:40 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 12:51:40 INFO  Executor: 60 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 59 ms
+22-10-2017 12:56:38 INFO  Connection: 14 - Connectado!
+22-10-2017 12:56:38 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 12:56:38 INFO  Executor: 60 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 192 ms
+22-10-2017 12:58:55 INFO  Connection: 14 - Connectado!
+22-10-2017 12:58:55 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 12:58:56 INFO  Executor: 60 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 762 ms
+22-10-2017 13:00:04 INFO  Connection: 14 - Connectado!
+22-10-2017 13:00:04 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 13:00:05 INFO  Executor: 60 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 1334 ms
+22-10-2017 13:00:39 INFO  Connection: 14 - Connectado!
+22-10-2017 13:00:39 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 13:00:39 INFO  Executor: 60 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 72 ms
+22-10-2017 13:03:25 INFO  Connection: 14 - Connectado!
+22-10-2017 13:03:25 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 13:03:27 INFO  Executor: 60 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 1194 ms
+22-10-2017 13:04:06 INFO  Connection: 14 - Connectado!
+22-10-2017 13:04:06 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 13:05:11 INFO  Connection: 14 - Connectado!
+22-10-2017 13:05:11 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 13:09:16 INFO  Connection: 14 - Connectado!
+22-10-2017 13:09:16 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 14:07:36 INFO  Connection: 14 - Connectado!
+22-10-2017 14:07:36 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 14:07:37 INFO  Executor: 60 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 1037 ms
+22-10-2017 14:08:26 INFO  Connection: 14 - Connectado!
+22-10-2017 14:08:26 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 14:08:27 INFO  Executor: 60 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 1210 ms
+22-10-2017 14:10:24 INFO  Connection: 14 - Connectado!
+22-10-2017 14:10:24 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 14:15:22 INFO  Connection: 14 - Connectado!
+22-10-2017 14:15:22 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 14:15:23 INFO  Executor: 60 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 1380 ms
+22-10-2017 14:16:21 INFO  Connection: 14 - Connectado!
+22-10-2017 14:16:21 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 14:16:22 INFO  Executor: 60 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 452 ms
+22-10-2017 14:16:44 INFO  Connection: 14 - Connectado!
+22-10-2017 14:16:44 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 14:17:19 INFO  Connection: 14 - Connectado!
+22-10-2017 14:17:19 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 14:17:19 INFO  Executor: 60 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 369 ms
+22-10-2017 14:17:26 INFO  Connection: 14 - Connectado!
+22-10-2017 14:17:26 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 14:18:57 INFO  Executor: 60 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 91589 ms
+22-10-2017 14:19:50 INFO  Connection: 14 - Connectado!
+22-10-2017 14:19:50 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 14:21:31 INFO  Connection: 14 - Connectado!
+22-10-2017 14:21:31 INFO  Executor: 64 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 14:41:29 INFO  Connection: 14 - Connectado!
+22-10-2017 14:41:29 INFO  Executor: 47 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 14:41:29 INFO  Executor: 36 - Erro ao ler o método requerido.
+22-10-2017 14:42:42 INFO  Connection: 14 - Connectado!
+22-10-2017 14:42:42 INFO  Executor: 47 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 14:42:42 INFO  Executor: 36 - Erro ao ler o método requerido.
+22-10-2017 14:43:18 INFO  Connection: 14 - Connectado!
+22-10-2017 14:43:18 INFO  Executor: 47 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 14:43:19 INFO  Executor: 43 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 1280 ms
+22-10-2017 14:44:52 INFO  Connection: 14 - Connectado!
+22-10-2017 14:44:52 INFO  Executor: 47 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 14:44:52 INFO  Executor: 43 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 481 ms
+22-10-2017 14:51:21 INFO  Connection: 14 - Connectado!
+22-10-2017 14:51:21 INFO  Executor: 47 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 14:51:21 INFO  Select: 31 - Foram encontrados 2000 documentos.
+22-10-2017 14:51:21 INFO  Executor: 43 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 420 ms
+22-10-2017 14:59:30 INFO  Connection: 14 - Connectado!
+22-10-2017 14:59:30 INFO  Executor: 47 - THREAD: pool-1-thread-1 - execução iniciada
+22-10-2017 14:59:31 INFO  Executor: 43 - THREAD: pool-1-thread-1 - execução finalizada. Tempo total: 648 ms

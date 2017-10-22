@@ -8,5 +8,5 @@ import org.json.simple.JSONArray;
 import com.mongodb.client.MongoCollection;
 
 public interface RequiredExecutor {
-	public void executeCommand(MongoCollection<Document> collection, ListIterator<JSONArray> files);
+	public void executeCommand(MongoCollection<Document> collection);
 }
