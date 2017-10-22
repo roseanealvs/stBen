@@ -50,6 +50,7 @@ public class Executor<T> {
 	
 	private MongoCollection<Document> getCollection() {
 		MongoClient mongo = Connection.connect();
+		Logging.getLogger(Connection.class).info("Connectado!");
 		MongoDatabase db = mongo.getDatabase("stBen_db");
 		MongoCollection<Document> collection = db.getCollection("people");
 		return collection;

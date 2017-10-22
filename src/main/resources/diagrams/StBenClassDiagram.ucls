@@ -3,7 +3,7 @@
   realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="org.stBenchmark.stBen.App" project="stBen" 
     file="/stBen/src/main/java/org/stBenchmark/stBen/App.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="125" y="637"/>    
+    <position height="-1" width="-1" x="126" y="652"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <class id="5" language="java" name="org.stBenchmark.stBen.util.Logging" project="stBen" 
     file="/stBen/src/main/java/org/stBenchmark/stBen/util/Logging.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="796" y="166"/>    
+    <position height="-1" width="-1" x="950" y="430"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -48,7 +48,7 @@
   </class>  
   <class id="6" language="java" name="org.stBenchmark.stBen.util.Executor" project="stBen" 
     file="/stBen/src/main/java/org/stBenchmark/stBen/util/Executor.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="799" y="635"/>    
+    <position height="-1" width="-1" x="798" y="654"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -58,46 +58,81 @@
   <class id="7" language="java" name="org.stBenchmark.stBen.util.RunnableThreadFactory" project="stBen" 
     file="/stBen/src/main/java/org/stBenchmark/stBen/util/RunnableThreadFactory.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="382" y="634"/>    
+    <position height="-1" width="-1" x="383" y="653"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <dependency id="8">    
+  <class id="8" language="java" name="org.stBenchmark.stBen.util.Reader" project="stBen" 
+    file="/stBen/src/main/java/org/stBenchmark/stBen/util/Reader.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="772" y="116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="org.stBenchmark.stBen.util.Connection" project="stBen" 
+    file="/stBen/src/main/java/org/stBenchmark/stBen/util/Connection.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="707" y="458"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="10">    
+    <bendpoint x="771" y="328"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="11">    
+    <bendpoint x="798" y="536"/>    
+    <bendpoint x="707" y="536"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="12">    
     <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="7"/>  
   </dependency>  
-  <realization id="9">    
+  <realization id="13">    
     <bendpoint x="569" y="208"/>    
     <bendpoint x="383" y="208"/>    
     <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="2"/>  
   </realization>  
-  <dependency id="10">    
+  <dependency id="14">    
+    <bendpoint x="949" y="109"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="15">    
     <bendpoint x="383" y="499"/>    
     <bendpoint x="177" y="499"/>    
     <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="4"/>  
   </dependency>  
-  <realization id="11">    
+  <realization id="16">    
     <bendpoint x="178" y="208"/>    
     <bendpoint x="383" y="208"/>    
     <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="2"/>  
   </realization>  
-  <dependency id="12">    
+  <dependency id="17">    
+    <bendpoint x="953" y="654"/>    
     <end type="SOURCE" refId="6"/>    
     <end type="TARGET" refId="5"/>  
   </dependency>  
-  <dependency id="13">    
+  <dependency id="18">    
     <bendpoint x="383" y="498"/>    
     <bendpoint x="570" y="498"/>    
     <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="3"/>  
   </dependency>  
-  <dependency id="14">    
+  <dependency id="19">    
     <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="6"/>  
   </dependency>  
